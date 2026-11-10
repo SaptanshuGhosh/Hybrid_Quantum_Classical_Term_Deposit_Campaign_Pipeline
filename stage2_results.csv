@@ -1,0 +1,2 @@
+selected_6_customer_ids,measured_optimal_bitstring,top_3_measured_bitstrings,selected_count_K,total_budget_used,budget_limit,total_capacity_used,capacity_limit,quantum_objective_net_value,classical_exact_optimum,optimality_gap,feasible_combinations_of_6,qaoa_layers_p,qaoa_gamma,qaoa_beta
+"C096, C014, C007, C078, C020, C062",1111001100,1111001100 | 1111101000 | 1011001110,6,24.80000,25.00000,20.00000,22.00000,688.93291,688.93291,0.00000,175,2,"0.41285, 0.78540","0.62832, 0.31416"

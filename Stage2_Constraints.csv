@@ -1,0 +1,7 @@
+parameter,symbol,value,rule
+Candidate count,N,10,top 10 Stage1_Test customers by predicted_probability (ties: customer_id ascending)
+Exact selection,K,6,SUM(x_i) = 6
+Budget,C,25,SUM(contact_cost_i * x_i) <= 25
+Capacity,H,22,SUM(capacity_units_i * x_i) <= 22
+Decision variable,x_i,0 or 1,"x_i = contact_decision (1 = contact, 0 = do not contact)"
+Objective,Z,Maximize,Z = SUM(expected_net_value_i * x_i)

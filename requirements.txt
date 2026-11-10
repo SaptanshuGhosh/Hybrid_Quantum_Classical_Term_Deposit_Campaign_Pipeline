@@ -1,0 +1,7 @@
+numpy>=2.1.0
+pandas>=2.2.0
+scipy>=1.15.0
+qiskit>=1.2.0
+qiskit-aer>=0.15.0
+qiskit-algorithms>=0.3.0
+qiskit-optimization>=0.6.0
